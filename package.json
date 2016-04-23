@@ -1,0 +1,35 @@
+{
+  "name": "wzrd-require",
+  "version": "0.0.0",
+  "description": "require standalone modules directly from browserify-cdn",
+  "main": "index.js",
+  "dependencies": {
+    "iso-global": "0.0.0"
+  },
+  "devDependencies": {
+    "bindpolyfill": "0.0.0",
+    "tape": "~4.5.1",
+    "testling": "~1.7.1"
+  },
+  "testling": {
+    "files": "./test.js"
+  },
+  "scripts": {
+    "test": "testling -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelrhodes/wzrd-require"
+  },
+  "keywords": [
+    "browserify-cdn",
+    "require",
+    "wzrd"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/wzrd-require/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/wzrd-require"
+}
