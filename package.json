@@ -1,6 +1,6 @@
 {
   "name": "wzrd-require",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "require standalone modules directly from browserify-cdn",
   "main": "index.js",
   "dependencies": {
